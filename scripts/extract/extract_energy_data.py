@@ -19,9 +19,11 @@ def fetch_energy_data():
         "frequency" : "monthly",
         "data[0]" : "sales",
         "facets[sectorid][]" : "ALL",
+        "start" : "2020-01",
+        "end" : "2025-10",
         "sort[0][column]" : "period",
         "sort[0][direction]" : "desc",
-        "length" : 24
+        
     }
 
     response = requests.get(url, params=params)

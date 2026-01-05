@@ -18,7 +18,7 @@ def fetch_unemployment_data():
         "api_key" : api_key,
         "file_type" : "json",
         "frequency" : "m",
-        "observation_start" : "2022-01-01" 
+        "observation_start" : "2020-01-01" 
     }
 
     response = requests.get(url, params=params)

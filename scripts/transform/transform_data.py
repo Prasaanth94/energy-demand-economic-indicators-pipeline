@@ -22,6 +22,8 @@ def transform_energy_data():
     #Group by month (sum across states)
     df_grouped = df.groupby("period", as_index=False).sum()
 
+    
+
     #Save transformed Data
     os.makedirs("data/processed",exist_ok=True)
     df_grouped.to_csv("data/processed/energy_transformed.csv", index=False)
