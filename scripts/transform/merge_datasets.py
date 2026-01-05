@@ -6,11 +6,9 @@ def merge_energy_and_unemployment():
     energy_df = pd.read_csv("data/processed/energy_transformed.csv")
     unemployment_df = pd.read_csv("data/processed/unemployment_transformed.csv")
 
-    print("Energy periods:")
-    print(energy_df["period"].sort_values().unique())
-
-    print("\nunemployment periods:")
-    print(unemployment_df["period"].sort_values().unique())
+     # Debug: print periods
+    print("Energy periods:", energy_df["period"].tolist())
+    print("Unemployment periods:", unemployment_df["period"].tolist())
 
 
     common_periods = set(energy_df["period"]).intersection(
@@ -32,6 +30,9 @@ def merge_energy_and_unemployment():
         on = "period",
         how = "inner"
     )
+
+    if "date" in merged_df.columns:
+        merged_df = merged_df.drop(columns= ["date"])
 
     #save merged dataset
     os.makedirs("data/final", exist_ok=True)
