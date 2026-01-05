@@ -13,3 +13,7 @@ The goal is to build a simple data pipeline that:
 - Python
 - SQL (MySQL)
 - Airflow (for scheduling)
+
+## Data Sources
+- US Energy Information Administration (EIA): Monthly electricity consumption
+- US Bureau of Labor Statistics (BLS): Monthly unemployment rate
