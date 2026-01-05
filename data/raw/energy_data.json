@@ -1,0 +1,256 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "18476",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "stateid": "AK",
+        "stateDescription": "Alaska",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "506.38584",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "AL",
+        "stateDescription": "Alabama",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "6890.11573",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "AR",
+        "stateDescription": "Arkansas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "4201.63142",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "AZ",
+        "stateDescription": "Arizona",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "7266.37788",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "CA",
+        "stateDescription": "California",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "20715.87647",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "CO",
+        "stateDescription": "Colorado",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "4512.13803",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "CT",
+        "stateDescription": "Connecticut",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "1975.61984",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "DC",
+        "stateDescription": "District of Columbia",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "725.81368",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "DE",
+        "stateDescription": "Delaware",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "796.36107",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "ENC",
+        "stateDescription": "East North Central",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "44085.70554",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "ESC",
+        "stateDescription": "East South Central",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "24766.44664",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "FL",
+        "stateDescription": "Florida",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "21807.34764",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "GA",
+        "stateDescription": "Georgia",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "11727.74835",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "HI",
+        "stateDescription": "Hawaii",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "820.79704",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "IA",
+        "stateDescription": "Iowa",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "4635.7997",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "ID",
+        "stateDescription": "Idaho",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "1901.19744",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "IL",
+        "stateDescription": "Illinois",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "10265.33438",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "IN",
+        "stateDescription": "Indiana",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "7998.75508",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "KS",
+        "stateDescription": "Kansas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "3237.14717",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "KY",
+        "stateDescription": "Kentucky",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "5705.5941",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "LA",
+        "stateDescription": "Louisiana",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "8115.91899",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "MA",
+        "stateDescription": "Massachusetts",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "4038.14048",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "MAT",
+        "stateDescription": "Middle Atlantic",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "26950.80768",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025-10",
+        "stateid": "MD",
+        "stateDescription": "Maryland",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "sales": "3994.18341",
+        "sales-units": "million kilowatt hours"
+      }
+    ],
+    "description": "Electricity sales to ultimate customer by state and sector (number of customers, average price, revenue, and megawatthours of sales).  \n    Sources: Forms EIA-826, EIA-861, EIA-861M"
+  },
+  "request": {
+    "command": "/v2/electricity/retail-sales/data/",
+    "params": {
+      "api_key": "9AAbg0MJkqdg6yF9FsUbFy7FIV8usoc3esdg5z3h",
+      "frequency": "monthly",
+      "data": [
+        "sales"
+      ],
+      "facets": {
+        "sectorid": [
+          "ALL"
+        ]
+      },
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "24"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

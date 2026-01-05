@@ -9,13 +9,13 @@ load_dotenv()
 def fetch_energy_data():
 
     api_key = os.getenv("EIA_API_KEY")
-    if no api_key:
+    if not api_key:
         print("Error: EIA_API_KEY not set")
         return
 
     url = "https://api.eia.gov/v2/electricity/retail-sales/data/"
     params = {
-        "api_key" : api_key
+        "api_key" : api_key,
         "frequency" : "monthly",
         "data[0]" : "sales",
         "facets[sectorid][]" : "ALL",
