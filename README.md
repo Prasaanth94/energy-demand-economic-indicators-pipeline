@@ -52,3 +52,12 @@ Create a .env file in the project root with the following:
 - Add state-level or sector-level energy breakdown
 - Add more economic indicators(GDP,inflation)
 - Interactive Dashboard using Plotly or Streamlit
+
+## Quick summary
+This project is an **end-to-end ETL pipeline** that :
+- Extracts U.S. monthly energy consumption and unemployment data
+- Transforms and merges datasets for analysis
+- Loads the cleaned data into a **MySQL database**
+- Visualizes trends and correlations between **energy demand** and **unemployment**
+
+![Energy Vs Unemployment Chart](plots/energy_vs_unemployment_fig1.png)
