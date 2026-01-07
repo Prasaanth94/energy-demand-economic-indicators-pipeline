@@ -40,10 +40,10 @@ pip install pandas requests mysql-connector-python matplotlib seaborn python-dot
 
 ## Environmental Variables
 Create a .env file in the project root with the following:
-    EIA_API_KEY=your_eia_api_key
-    FRED_API_KEY=your_fred_api_key
-    MYSQL_PASSWORD=your_mysql_root_password
-
+- EIA_API_KEY = your_eia_api_key
+- FRED_API_KEY = your_fred_api_key
+- MYSQL_PASSWORD = your_mysql_root_password
+    
 ## Insights
 - Visualizes correlation between energy consumption and unemployment rate
 - Highlights trends over time, e.g, economic downturns reflected in reduced energy usage
